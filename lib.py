@@ -156,8 +156,7 @@ def get_updates(offset: int) -> Tuple[int, List[Dict[str, Any]]]:
 
 
 def main():
-    print(f"[+] Starting Telegram Stealth Agent...")
-    print(f"[+] Target User ID: {ALLOWED_USER_ID}")
+
 
     # Send online notification
     send_telegram_message(
